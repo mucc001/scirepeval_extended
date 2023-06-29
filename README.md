@@ -1,5 +1,5 @@
 # An extended version of SciRepEval: A Multi-Format Benchmark for Scientific Document Representations
-This repo borrows code from [SciRepEval](https://github.com/allenai/scirepeval/tree/main). It contains the code to train, evaluate and reproduce the representation learning models and results on the benchmark introduced in [SciRepEval](https://api.semanticscholar.org/CorpusID:254018137).
+This repo borrows code from [SciRepEval Git repo](https://github.com/allenai/scirepeval/tree/main). It contains the code to train, evaluate and reproduce the representation learning models and results on the benchmark introduced in [SciRepEval](https://api.semanticscholar.org/CorpusID:254018137). It adds a scirepeval_emb.py file to support evaluation with only paper id and paper embedding pairs without providing a model instance. You can use scirepeval_emb.py in the same way you use scirepeval.py. However, scirepeval_emb.py doesn't support the few-shot tests and the search tests or taking a model as input with -m.
 
 ## Quick Setup
 Clone the repo and setup the environment as follows:
