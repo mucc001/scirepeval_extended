@@ -1,5 +1,5 @@
-# SciRepEval: A Multi-Format Benchmark for Scientific Document Representations
-This repo contains the code to train, evaluate and reproduce the representation learning models and results on the benchmark introduced in [SciRepEval](https://api.semanticscholar.org/CorpusID:254018137).
+# An extended version of SciRepEval: A Multi-Format Benchmark for Scientific Document Representations
+This repo borrows code from [SciRepEval](https://github.com/allenai/scirepeval/tree/main). It contains the code to train, evaluate and reproduce the representation learning models and results on the benchmark introduced in [SciRepEval](https://api.semanticscholar.org/CorpusID:254018137).
 
 ## Quick Setup
 Clone the repo and setup the environment as follows:
@@ -9,6 +9,7 @@ cd scirepeval
 conda create -n scirepeval python=3.8
 conda activate scirepeval
 pip install -r requirements.txt
+pip install -r requirements2.txt
 ```
 ## Usage
 Please refer to the following for further usage:
